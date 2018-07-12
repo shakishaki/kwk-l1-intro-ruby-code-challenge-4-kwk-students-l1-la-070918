@@ -22,6 +22,7 @@ def user_input
   puts "#{cents}"
  if number_1.to_f > 1
   puts "Enter a value that is less than 1."
+  puts "What is your coin value?"
   end
 end
 puts user_input
