@@ -9,10 +9,10 @@
 def coin_1
 
 coins = { 
-  "quarters"=>[1, 2, 3, 4],
-  "dimes"=>[1, 2, 3, 4],
-  "nickels"=>[1, 2, 3, 4],
-  "pennies"=> [1, 2, 3 , 4]
+  "quarters"=>[1, 2, 3, 4]%25,
+  "dimes"=>[1, 2, 3, 4]%10,
+  "nickels"=>[1, 2, 3, 4]%5,
+  "pennies"=> [1, 2, 3 , 4]%1
 }
 end
 def user_input
